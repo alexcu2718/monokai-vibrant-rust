@@ -12,10 +12,17 @@
 Contains 2024 keywords and newer C++ keywords (check changelog)
 
 **I MAY MAKE THIS UPSTREAM, NOT SURE, NOT TESTED IT MUCH YET**
+VsCode 
 
 ![Monokai Vibrant Rust Example](/images/demo.png)
 
+Zed
+
 ![Monokai Vibrant Zed Rust Example](./images/Screenshot_2025-12-01_21-40-39.png)
+
+Neovim 
+
+![Monokai vibrant rust neovim Example](./images/Screenshot_2025-12-01_21-43-41.png)
 
 
 
