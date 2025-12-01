@@ -7,7 +7,7 @@
 
 > This is a fork of [s3gf4ult/monokai-vibrant](https://github.com/s3gf4ult/monokai-vibrant) with some modifications to make it work with Dioxus and Rust. We modified some colors to be better for Rust code.
 
-**THIS IS A FORK OF A FORK TO MAKE IT WORK IN ZED**
+**THIS IS A FORK OF A FORK TO MAKE IT WORK IN ZED NEOVIM**
 
 **I MAY MAKE THIS UPSTREAM, NOT SURE, NOT TESTED IT MUCH YET**
 
@@ -16,7 +16,6 @@
 * 🌙 Super dark editor color scheme
 * 🍭 Vibrant colors for better readability
 * 💻 Italicized keywords compliments "Operator Mono" or similar fonts (optional)
-
 
 ## Install
 
@@ -52,7 +51,15 @@ If you are not using a font that does not support italics, you can add this to y
 
 ## Extras
 
-A long-term goal of this project is to provide color schemes for other popular applications in the `/extras` folder. A vim/nvim theme would be greatly appreciated if anyone is interested in contributing.
+Color schemes for other popular applications are available in the `/extras` folder:
+
+- **Neovim/Vim**: Full colorscheme support with Treesitter, LSP, and plugin integration
+  - See [`/extras/README-neovim.md`](extras/README-neovim.md) for installation instructions
+  - Vim script version: `extras/monokai-vibrant-rust.vim`
+  - Lua version: `extras/nvim/colors/monokai-vibrant-rust.lua`
+- **iTerm2**: Terminal color scheme (`extras/Monokai-Vibrant-iTerm2.itermcolors`)
+
+Additional editor support contributions are welcome!
 
 ---
 
