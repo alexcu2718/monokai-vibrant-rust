@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to the "monokai-vibrant" extension will be documented in this file.
 
+## 0.5.3
+
+- Added support for Rust `gen` keyword (new in Rust 2024 edition for generator blocks)
+- Added support for C++ specific keywords including:
+  - Cast operators: `static_cast`, `dynamic_cast`, `const_cast`, `reinterpret_cast`
+  - Modern C++ keywords: `constexpr`, `consteval`, `constinit`, `decltype`, `alignas`, `alignof`
+  - Object-oriented keywords: `template`, `typename`, `friend`, `explicit`, `virtual`, `override`, `final`
+  - Exception handling: `noexcept`
+  - Threading: `thread_local`
+- Updated both VS Code themes (dark and light variants)
+- Updated Neovim themes (Lua and Vim versions) with new keyword support
+
 ## 0.5.2
 
 FORK for zeditor.

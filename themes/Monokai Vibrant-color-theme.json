@@ -9,10 +9,7 @@
     },
     {
       "name": "Comment",
-      "scope": [
-        "comment",
-        "string.comment"
-      ],
+      "scope": ["comment", "string.comment"],
       "settings": {
         "foreground": "#5c6370",
         "fontStyle": "italic"
@@ -55,10 +52,7 @@
     },
     {
       "name": "Embeded String Begin and End",
-      "scope": [
-        "string.embedded.begin",
-        "string.embedded.end"
-      ],
+      "scope": ["string.embedded.begin", "string.embedded.end"],
       "settings": {
         "foreground": "#E373CE"
       }
@@ -79,10 +73,7 @@
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#E373CE"
       }
@@ -97,10 +88,7 @@
     },
     {
       "name": "Variable",
-      "scope": [
-        "variable.readwrite",
-        "variable.readwrite.other.block"
-      ],
+      "scope": ["variable.readwrite", "variable.readwrite.other.block"],
       "settings": {
         "foreground": "#00a0e4"
       }
@@ -114,6 +102,44 @@
       ],
       "settings": {
         "foreground": "#FF3F4F"
+      }
+    },
+    {
+      "name": "Rust gen keyword",
+      "scope": ["keyword.other.rust.gen", "storage.modifier.gen.rust"],
+      "settings": {
+        "foreground": "#FF3F4F",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C++ specific keywords",
+      "scope": [
+        "keyword.operator.cast.cpp",
+        "keyword.operator.cast.static.cpp",
+        "keyword.operator.cast.dynamic.cpp",
+        "keyword.operator.cast.const.cpp",
+        "keyword.operator.cast.reinterpret.cpp",
+        "keyword.other.asm.cpp",
+        "keyword.other.template.cpp",
+        "keyword.other.typename.cpp",
+        "keyword.other.friend.cpp",
+        "keyword.other.explicit.cpp",
+        "keyword.other.virtual.cpp",
+        "keyword.other.override.cpp",
+        "keyword.other.final.cpp",
+        "keyword.other.noexcept.cpp",
+        "keyword.other.constexpr.cpp",
+        "keyword.other.consteval.cpp",
+        "keyword.other.constinit.cpp",
+        "keyword.other.decltype.cpp",
+        "keyword.other.alignas.cpp",
+        "keyword.other.alignof.cpp",
+        "storage.modifier.cpp.thread_local"
+      ],
+      "settings": {
+        "foreground": "#19D1E5",
+        "fontStyle": "italic"
       }
     },
     {
@@ -153,20 +179,14 @@
     },
     {
       "name": "Variable Object",
-      "scope": [
-        "meta.block.switch.c",
-        "variable.other.object"
-      ],
+      "scope": ["meta.block.switch.c", "variable.other.object"],
       "settings": {
         "foreground": "#00a0e4"
       }
     },
     {
       "name": "Other variable",
-      "scope": [
-        "variable.other.property",
-        "variable.other.block"
-      ],
+      "scope": ["variable.other.property", "variable.other.block"],
       "settings": {
         "foreground": "#f8f8f0"
       }
@@ -180,10 +200,7 @@
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function",
-        "support.function"
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "#81F900"
       }
@@ -213,10 +230,7 @@
     },
     {
       "name": "Builtin Functions",
-      "scope": [
-        "function.support.builtin",
-        "function.support.core"
-      ],
+      "scope": ["function.support.builtin", "function.support.core"],
       "settings": {
         "foreground": "#81F900"
       }
@@ -234,10 +248,7 @@
     },
     {
       "name": "Tag Class and ID",
-      "scope": [
-        "entity.name.tag.class",
-        "entity.name.tag.id"
-      ],
+      "scope": ["entity.name.tag.class", "entity.name.tag.id"],
       "settings": {
         "foreground": "#19D1E5"
       }
@@ -258,10 +269,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.variable"
-      ],
+      "scope": ["support.type", "support.variable"],
       "settings": {
         "foreground": "#19D1E5"
       }
@@ -323,12 +331,7 @@
     },
     {
       "name": "StyleSheet Unit",
-      "scope": [
-        "unit.css",
-        "unit.scss",
-        "unit.less",
-        "unit.sass"
-      ],
+      "scope": ["unit.css", "unit.scss", "unit.less", "unit.sass"],
       "settings": {
         "foreground": "#c678dd"
       }
@@ -394,10 +397,7 @@
     },
     {
       "name": "diff.header",
-      "scope": [
-        "meta.diff",
-        "meta.diff.header"
-      ],
+      "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "foreground": "#75715E"
       }

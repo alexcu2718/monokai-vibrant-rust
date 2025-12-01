@@ -1,49 +1,49 @@
 {
-    "name": "monokai-vibrant-rust",
-    "displayName": "Monokai Vibrant Rust",
-    "description": "A very dark and vibrant Monokai based theme designed for Rust and Dioxus",
-    "version": "0.1.0",
-    "publisher": "DioxusLabs",
-    "icon": "images/icon.png",
-    "license": "MIT",
-    "galleryBanner": {
-        "color": "#16171d",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/DioxusLabs/monokai-vibrant-rust"
-    },
-    "bugs": {
-        "url": "https://github.com/DioxusLabs/monokai-vibrant-rust/issues"
-    },
-    "homepage": "https://github.com/DioxusLabs/monokai-vibrant-rust/blob/master/README.md",
-    "engines": {
-        "vscode": "^1.15.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "monokai",
-        "vibrant",
-        "dark",
-        "colorful",
-        "rust",
-        "dioxus"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai Vibrant (Rust)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Monokai Vibrant-color-theme.json"
-            },
-            {
-                "label": "Monokai Vibrant Light (Rust)",
-                "uiTheme": "vs",
-                "path": "./themes/Monokai Vibrant-color-theme-light.json"
-            }
-        ]
-    }
+  "name": "monokai-vibrant-rust",
+  "displayName": "Monokai Vibrant Rust",
+  "description": "A very dark and vibrant Monokai based theme designed for Rust and Dioxus",
+  "version": "0.5.3",
+  "publisher": "DioxusLabs",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#16171d",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DioxusLabs/monokai-vibrant-rust"
+  },
+  "bugs": {
+    "url": "https://github.com/DioxusLabs/monokai-vibrant-rust/issues"
+  },
+  "homepage": "https://github.com/DioxusLabs/monokai-vibrant-rust/blob/master/README.md",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monokai",
+    "vibrant",
+    "dark",
+    "colorful",
+    "rust",
+    "dioxus"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Vibrant (Rust)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Vibrant-color-theme.json"
+      },
+      {
+        "label": "Monokai Vibrant Light (Rust)",
+        "uiTheme": "vs",
+        "path": "./themes/Monokai Vibrant-color-theme-light.json"
+      }
+    ]
+  }
 }

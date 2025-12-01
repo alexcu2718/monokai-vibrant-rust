@@ -5,17 +5,19 @@
 
 <p align="center">A very dark and vibrant Monokai based theme - forked and modified for Rust and Dioxus</p>
 
-> This is a fork of [s3gf4ult/monokai-vibrant](https://github.com/s3gf4ult/monokai-vibrant) with some modifications to make it work with Dioxus and Rust. We modified some colors to be better for Rust code.
+> This is a fork of [s3gf4ult/monokai-vibrant](https://github.com/s3gf4ult/monokai-vibrant) with some modifications to make it work with Dioxus and Rust. We modified some colors to be better for Rust code and added support for modern language features.
 
-**THIS IS A FORK OF A FORK TO MAKE IT WORK IN ZED NEOVIM**
+**THIS IS A FORK OF A FORK TO MAKE IT WORK IN ZED/NEOVIM**
+
+Contains 2024 keywords and newer C++ keywords (check changelog)
 
 **I MAY MAKE THIS UPSTREAM, NOT SURE, NOT TESTED IT MUCH YET**
 
 ![Monokai Vibrant Rust Example](/images/demo.png)
 
-* 🌙 Super dark editor color scheme
-* 🍭 Vibrant colors for better readability
-* 💻 Italicized keywords compliments "Operator Mono" or similar fonts (optional)
+![Monokai Vibrant Zed Rust Example](./images/Screenshot_2025-12-01_21-40-39.png)
+
+
 
 ## Install
 
