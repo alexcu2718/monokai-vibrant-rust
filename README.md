@@ -7,6 +7,10 @@
 
 > This is a fork of [s3gf4ult/monokai-vibrant](https://github.com/s3gf4ult/monokai-vibrant) with some modifications to make it work with Dioxus and Rust. We modified some colors to be better for Rust code.
 
+**THIS IS A FORK OF A FORK TO MAKE IT WORK IN ZED**
+
+**I MAY MAKE THIS UPSTREAM, NOT SURE, NOT TESTED IT MUCH YET**
+
 ![Monokai Vibrant Rust Example](/images/demo.png)
 
 * 🌙 Super dark editor color scheme
